@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = import.meta.env.VITE_API_URL ?? 'https://posbackend-latest.onrender.com';
+const BASE_URL = import.meta.env.VITE_API_URL ?? 'https://posbackend-3zqv.onrender.com';
 
 export const http = axios.create({ baseURL: BASE_URL });
 
